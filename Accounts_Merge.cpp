@@ -2,7 +2,7 @@
 using namespace std;
 
 vector<int> parent;
-    vector<int> rnk;
+vector<int> rnk;
 int Find(int x)
 {
     if(parent[x]!=x)
